@@ -1,0 +1,234 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background:#e9a655;
+    color: white;
+}
+
+/* Header con imagen de fondo */
+header {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url('madera2.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0px 0% 50px 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-text {
+    margin-top: 100px;
+}
+
+.header-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 1.2em;
+}
+
+/* Productos */
+.productos {
+    padding: 50px 20px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Transición en el fondo */
+}
+
+.productos h2 {
+    margin-bottom: 30px;
+    color: white;
+    transform: scale(1.1); /* Hace que el título crezca un poco */
+}
+
+.producto {
+    display: inline-block;
+    background-color:#ffd19b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el efecto hover */
+}
+
+/* Efecto al pasar el ratón sobre el producto */
+.producto:hover {
+    transform: scale(1.05); /* Aumenta el tamaño del producto ligeramente */
+    box-shadow: 0 8px 16px rgba(27, 27, 27, 0.89); /* Aumenta la sombra */
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.producto h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    background-color: #604a33;
+}
+
+.producto p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.producto .precio {
+    font-size: 1.3em;
+    color: #604a33;
+    font-weight: bold;
+}
+
+/* Sobre nosotros */
+.sobre-nosotros {
+    padding: 50px;
+    background-color: #FFBA6A;
+    text-align: center;
+}
+
+.sobre-nosotros h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.sobre-nosotros p {
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contacto */
+.contacto {
+    padding: 50px;
+    background-color: #ffd19b;
+    text-align: center;
+}
+
+.contacto h2 {
+    margin-bottom: 20px;
+    color: #ffa333;
+}
+
+.contacto p {
+    color: black;
+    font-weight: bold;
+}
+
+.contacto p a:hover {
+    text-decoration: underline;
+   
+}
+.btn {
+    background-color: #895737;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    
+}
+
+.btn:hover {
+    background-color: #ff2e00;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Productos */
+.productos {
+    padding: 50px 20px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Transición en el fondo */
+}
+
+.productos h2 {
+    margin-bottom: 30px;
+    color: black;
+    transform: scale(1.1); /* Hace que el título crezca un poco */
+}
+
+.producto {
+    display: inline-block;
+    background-color:#ffd19b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el efecto hover */
+}
+
+/* Efecto al pasar el ratón sobre el producto */
+.producto:hover {
+    transform: scale(1.05); /* Aumenta el tamaño del producto ligeramente */
+    box-shadow: 0 8px 16px rgba(27, 27, 27, 0.89); /* Aumenta la sombra */
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.producto h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    background-color: #604a33;
+}
+
+.producto p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.producto .precio {
+    font-size: 1.3em;
+    color: #604a33;
+    font-weight: bold;
+}
